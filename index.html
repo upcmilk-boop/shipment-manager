@@ -163,8 +163,8 @@ const RIYADH_PLANTS=[
 ];
 const RIYADH_SET=new Set(RIYADH_PLANTS);
 
-/* Original SCHED0 with all Jeddah, Makkah, Madinah, Taif and other regional schedules fully preserved */
-const SCHED0={"name":"Built-in: Jeddah & Regional Master + Riyadh 205","areas":["1ST JEDDAH","ABHA","BALJURASHI","BISHA","JEDDAH","JIZAN","KHURMA","MADINAH","MADINAH HARAM","MAJARDAH","MAKKAH","MAKKAH HARAM","NAJRAN","QUNFUDHA","TABOUK","TAIF","RIYADH"],"p":{"P001":"14:4","P002":"03:7","P003":"26:10","P004":"03:4","P005":"03:7","P006":"03:10","P007":"024:0","P008":"03:10","P009":"26:10","P010":"1:11","P011":"26:10","P013":"26:10","P014":"03:7","P015":"26:4","P016":"14:1","P017":"03:4","P018":"136:4","P019":"03:7","P020":"26:4","P021":"03:6","P022":"26:4","P023":"024:10","P024":"03:10","P025":"14:1","P026":"03:10","P027":"26:10","P028":"03:4","P029":"14:4","P030":"26:15","P031":"26:4","P032":"03:7","P033":"26:4","P034":"03:7","P036":"14:4","P037":"03:4","P038":"03:4","P040":"26:10","P041":"26:10","P042":"03:4","P043":"03:7","P044":"03:4","P045":"26:15","P046":"14:1","P047":"03:10","P048":"03:4","P049":"146:15","P050":"14:1","P051":"26:10","P053":"03:6","P054":"26:10","P055":"26:10","P056":"03:10","P058":"26:4","P059":"14:15","P060":"1:8","P061":"26:15","P062":"14:15","P063":"26:15","P066":"26:15","P067":"146:15","P070":"14:1","P071":"14:15","P072":"14:15","P074":"14:15","P076":"146:15","P078":"03:6","P081":"26:15","P084":"26:15","P085":"26:15","P086":"26:15","P088":"146:15","P089":"26:10","P091":"024:10","P093":"26:10","P094":"03:10","P095":"26:15","P096":"26:10","P098":"14:4","P099":"26:10","P101":"03:7","P102":"14:4","P104":"136:4","P106":"26:15","P108":"14:12","P109":"26:15","P110":"14:4","P111":"26:10","P112":"1:11","P114":"03:4","P116":"03:7","P117":"1:8","P118":"26:15","P119":"03:4","P120":"03:7","P121":"14:3","P122":"14:15","P123":"03:14","P124":"14:15","P125":"14:4","P126":"26:10","P127":"14:15","P128":"14:3","P129":"136:4","P130":"14:15","P131":"14:3","P132":"14:15","P133":"14:3","P134":"14:3","P135":"12:9","P138":"26:0","P139":"03:6","P140":"14:3","P141":"14:1","P142":"03:6","P143":"14:4","P144":"03:4","P145":"14:4","P146":"03:4","P149":"024:4","P150":"03:4","P151":"136:4","P152":"03:4","P153":"14:4","P154":"26:4","P155":"26:4","P156":"024:4","P157":"03:4","P158":"03:4","P159":"03:4","P160":"26:15","P161":"14:3","P162":"03:7","P163":"03:7","P164":"03:4","P165":"03:4","P166":"26:4","P167":"136:4","P168":"26:4","P169":"14:4","P170":"03:4","P171":"14:4","P172":"26:4","P173":"26:15","P174":"14:2","P175":"14:1","P176":"14:1","P178":"14:1","P179":"14:1","P180":"12:9","P184":"03:7","P185":"03:5","P186":"03:7","P187":"03:7","P188":"14:3","P189":"26:10","P191":"26:10","P192":"03:10","P193":"03:10","P194":"03:10","P195":"26:10","P196":"03:10","P197":"03:6","P198":"26:4","P199":"03:4","P200":"03:4","P202":"26:4","P203":"26:4","P204":"14:4","P205":"26:4","P206":"03:4","P207":"03:4","P208":"26:4","P209":"14:1","P210":"26:10","P211":"14:15","P212":"26:10","P213":"26:15","P214":"26:15","P219":"14:2","P220":"14:2","P221":"26:4","P222":"14:2","P223":"14:2","P224":"14:4","P225":"26:4","P226":"14:3","P228":"14:4","P230":"14:2","P231":"26:10","P232":"26:10","P233":"12:9","P234":"12:9","P235":"03:13","P238":"12:9","P239":"12:9","P242":"03:13","P243":"26:15","P247":"26:4","P248":"14:4","P251":"03:7","P252":"14:4","P254":"03:7","P255":"024:4","P256":"14:4","P257":"03:5","P258":"03:5","P259":"03:5","P260":"14:3","P261":"14:3","P263":"12:9","P264":"14:12","P265":"14:1","P266":"14:1","P267":"03:13","P268":"26:15","P269":"26:15","P280":"03:14","P281":"03:14","P287":"03:14","P288":"03:7","P290":"03:4","P291":"136:4","P292":"26:15","P293":"14:2","P294":"03:13","P295":"03:13","P296":"14:12","P297":"14:2","P298":"14:1","P299":"14:2","P300":"024:4","P301":"12:9","P302":"03:13","P303":"03:5","P305":"14:4","P306":"26:4","P307":"14:4","P313":"26:15","P314":"14:2","P316":"14:2","P318":"14:3","P319":"26:15","P321":"03:14","P322":"03:13","P324":"14:3","P325":"03:14","P328":"14:2","P329":"14:3","P330":"246:10","P331":"03:5","P332":"14:2","P333":"03:10","P334":"26:0","P335":"14:4","P336":"14:1","P337":"14:1","P339":"03:7","P340":"14:12","P341":"14:12","P342":"14:12","P344":"26:0","P345":"03:14","P347":"03:5","P348":"26:15","P349":"14:15","P350":"1:11","P351":"03:13","P356":"03:14","P357":"0:13","P359":"03:14","P361":"03:5","P362":"03:14","P371":"14:1","P372":"26:4","P373":"26:0","P374":"26:0","P380":"26:10","P382":"26:4","P383":"03:5","P384":"26:4","P387":"14:12","P393":"14:12","P395":"03:4","P396":"03:4","P398":"26:4","P399":"03:5","P400":"136:4","P401":"03:14","P403":"26:4","P404":"26:4","P405":"03:14","P407":"14:12","P409":"024:10","P410":"1:8","P411":"03:14","P415":"03:7","P417":"26:4","P418":"26:4","P419":"14:4","P420":"26:0","P421":"136:4","P425":"14:1","P426":"12:9","P427":"12:9","P428":"14:2","P429":"14:2","P430":"14:2","P431":"03:4","P432":"03:14","P433":"03:4","P435":"1:8","P436":"03:7","P437":"03:7","P440":"146:15","P441":"26:4","P443":"03:7","P444":"03:4","P446":"03:14","P450":"26:0","P451":"14:1","P454":"03:7","P455":"136:4","P457":"14:1","P458":"14:3","P459":"26:4","P460":"26:4","P461":"03:4","P470":"14:2","P471":"03:13","P473":"14:3","P475":"024:4","P476":"14:4","P477":"26:4","P478":"03:7","P479":"14:1","P480":"14:3","P481":"03:5","P482":"26:15","P483":"1:8","P484":"26:10","P485":"136:4","P486":"26:4","P487":"1:11","P491":"26:0","P494":"14:3","P495":"14:1","P498":"26:4","P500":"26:4","P503":"03:14","P505":"14:3","P513":"03:7","P514":"03:13","P515":"14:1","P516":"14:2","P520":"0:16","P522":"14:12","P523":"26:0","P526":"26:4","P527":"26:0","P528":"03:4","P529":"3:4","P532":"03:7","P535":"14:1","P539":"14:12","P543":"03:13","P544":"12:9"}};
+/* Original SCHED0 containing all regional schedules and drivers extracted from Loading_Prefix_P.xlsx */
+const SCHED0={"name":"Built-in: Loading_Prefix_P.xlsx + Riyadh Master","areas":["1ST JEDDAH","TAIF","Makkah","JEDDAH","QUNFUDHA","TABOUK","JIZAN","Madinah","Khurma","ABHA","Najran","BELJORESHY","BISHA","Majardah","Taif","MADINAH HARAM","MAKKAH HARAM","RIYADH"],"p":{"P138":"26:0","P334":"26:0","P344":"26:0","P373":"26:0","P374":"26:0","P420":"26:0","P450":"26:0","P491":"26:0","P523":"26:0","P527":"26:0","P030":"26:15","P045":"26:15","P049":"146:15","P061":"26:15","P062":"26:15","P063":"26:15","P066":"26:15","P067":"146:15","P071":"14:15","P072":"14:15","P074":"14:15","P076":"146:15","P081":"26:15","P084":"26:15","P085":"26:15","P086":"26:15","P088":"146:15","P106":"26:15","P109":"26:15","P118":"26:15","P122":"26:15","P124":"26:15","P127":"26:15","P130":"26:15","P160":"26:15","P173":"26:15","P211":"14:15","P213":"26:15","P214":"26:15","P243":"26:15","P268":"26:15","P269":"26:15","P292":"26:15","P313":"26:15","P319":"26:15","P348":"26:15","P349":"14:15","P440":"146:15","P482":"26:15","P003":"26:10","P009":"26:10","P011":"26:10","P013":"26:10","P023":"024:10","P024":"03:10","P026":"03:10","P027":"26:10","P040":"26:10","P041":"26:10","P047":"03:10","P051":"26:10","P054":"26:10","P055":"26:10","P056":"03:10","P089":"26:10","P091":"024:10","P093":"26:10","P094":"03:10","P096":"26:10","P099":"26:10","P111":"26:10","P189":"26:10","P191":"26:10","P192":"03:10","P193":"03:10","P194":"03:10","P195":"26:10","P196":"03:10","P210":"26:10","P212":"26:10","P231":"26:10","P232":"26:10","P333":"03:10","P380":"26:10","P409":"024:10","P484":"26:10","P015":"26:4","P018":"136:4","P020":"26:4","P022":"26:4","P028":"03:4","P029":"14:4","P031":"26:4","P033":"26:4","P036":"14:4","P037":"03:4","P038":"03:4","P042":"03:4","P044":"03:4","P048":"03:4","P058":"26:4","P098":"14:4","P102":"14:4","P104":"136:4","P110":"14:4","P114":"03:4","P119":"03:4","P125":"14:4","P129":"136:4","P143":"14:4","P144":"03:4","P145":"14:4","P146":"03:4","P150":"03:4","P151":"136:4","P152":"03:4","P153":"14:4","P154":"26:4","P155":"26:4","P157":"03:4","P158":"03:4","P159":"03:4","P164":"03:4","P165":"03:4","P166":"26:4","P167":"136:4","P168":"26:4","P169":"14:4","P170":"03:4","P171":"14:4","P172":"26:4","P198":"26:4","P199":"03:4","P200":"03:4","P202":"26:4","P203":"26:4","P204":"14:4","P205":"26:4","P206":"03:4","P207":"03:4","P208":"26:4","P221":"26:4","P224":"14:4","P225":"26:4","P228":"14:4","P247":"26:4","P248":"14:4","P252":"14:4","P255":"024:4","P256":"14:4","P290":"03:4","P291":"136:4","P305":"14:4","P306":"26:4","P307":"14:4","P335":"14:4","P395":"03:4","P396":"03:4","P398":"26:4","P400":"136:4","P403":"26:4","P404":"26:4","P417":"26:4","P418":"26:4","P419":"14:4","P421":"136:4","P431":"03:4","P433":"03:4","P441":"26:4","P444":"03:4","P455":"136:4","P459":"26:4","P460":"26:4","P461":"03:4","P476":"14:4","P477":"26:4","P485":"136:4","P486":"26:4","P498":"26:4","P500":"26:4","P526":"26:4","P528":"03:4","P529":"3:4","P235":"03:13","P242":"03:13","P267":"03:13","P294":"03:13","P295":"03:13","P302":"03:13","P322":"03:13","P471":"03:13","P514":"03:13","P543":"03:13","P401":"03:14","P325":"03:14","P321":"03:14","P280":"03:14","P281":"03:14","P287":"03:14","P356":"03:14","P359":"03:14","P362":"03:14","P405":"03:14","P411":"03:14","P432":"03:14","P446":"03:14","P503":"03:14","P446":"03:14","P446":"03:14","P303":"03:5","P185":"03:5","P257":"03:5","P258":"03:5","P259":"03:5","P331":"03:5","P347":"03:5","P361":"03:5","P383":"03:5","P399":"03:5","P481":"03:5","P021":"03:6","P053":"03:6","P078":"03:6","P139":"03:6","P142":"03:6","P197":"03:6","P002":"03:7","P005":"03:7","P014":"03:7","P019":"03:7","P032":"03:7","P034":"03:7","P043":"03:7","P101":"03:7","P116":"03:7","P120":"03:7","P162":"03:7","P163":"03:7","P184":"03:7","P186":"03:7","P187":"03:7","P251":"03:7","P254":"03:7","P288":"03:7","P339":"03:7","P415":"03:7","P436":"03:7","P437":"03:7","P443":"03:7","P454":"03:7","P478":"03:7","P513":"03:7","P532":"03:7","P178":"14:1","P179":"14:1","P181":"14:1","P209":"14:1","P265":"14:1","P266":"14:1","P298":"14:1","P336":"14:1","P337":"14:1","P371":"14:1","P425":"14:1","P451":"14:1","P457":"14:1","P479":"14:1","P495":"14:1","P515":"14:1","P535":"14:1","P174":"14:2","P219":"14:2","P220":"14:2","P222":"14:2","P223":"14:2","P230":"14:2","P293":"14:2","P297":"14:2","P299":"14:2","P314":"14:2","P316":"14:2","P328":"14:2","P332":"14:2","P428":"14:2","P429":"14:2","P430":"14:2","P470":"14:2","P516":"14:2","P121":"14:3","P128":"14:3","P131":"14:3","P133":"14:3","P134":"14:3","P188":"14:3","P226":"14:3","P260":"14:3","P261":"14:3","P318":"14:3","P324":"14:3","P329":"14:3","P458":"14:3","P473":"14:3","P480":"14:3","P494":"14:3","P505":"14:3","P149":"024:4","P156":"024:4","P300":"024:4","P409":"024:10","P007":"024:0","P023":"024:10","P075":"12:9","P135":"12:9","P180":"12:9","P233":"12:9","P234":"12:9","P238":"12:9","P239":"12:9","P263":"12:9","P301":"12:9","P426":"12:9","P427":"12:9","P544":"12:9","P108":"14:12","P264":"14:12","P296":"14:12","P340":"14:12","P341":"14:12","P342":"14:12","P387":"14:12","P393":"14:12","P407":"14:12","P439":"14:12","P522":"14:12","P539":"14:12","P123":"03:14","P280":"03:14","P281":"03:14","P287":"03:14","P321":"03:14","P325":"03:14","P356":"03:14","P359":"03:14","P362":"03:14","P401":"03:14","P405":"03:14","P411":"03:14","P432":"03:14","P446":"03:14","P503":"03:14","P016":"14:1","P025":"14:1","P046":"14:1","P050":"14:1","P070":"14:1","P141":"14:1","P175":"14:1","P176":"14:1","P112":"1:11","P350":"1:11","P487":"1:11","P010":"1:11","P060":"1:8","P117":"1:8","P410":"1:8","P435":"1:8","P483":"1:8"},"drivers":{"P015":"ADHIL","P022":"ADHIL","P033":"ADHIL","P098":"ADHIL","P146":"ADHIL","P152":"ADHIL","P156":"ADHIL","P157":"ADHIL","P159":"ADHIL","P190":"ADHIL","P228":"ADHIL","P037":"MISHARI","P044":"MISHARI","P119":"MISHARI","P136":"MISHARI","P155":"MISHARI","P171":"MISHARI","P198":"MISHARI","P201":"MISHARI","P224":"MISHARI","P290":"MISHARI","P305":"MISHARI","P017":"SALAH","P029":"SALAH","P110":"SALAH","P114":"SALAH","P138":"SALAH","P143":"SALAH","P151":"SALAH","P334":"SALAH","P344":"SALAH","P420":"SALAH","P031":"IMAM","P058":"IMAM","P125":"IMAM","P138":"IMAM","P144":"IMAM","P149":"IMAM","P154":"IMAM","P172":"IMAM","P199":"IMAM","P200":"IMAM","P291":"IMAM","P007":"YOUSAF","P042":"YOUSAF","P102":"YOUSAF","P145":"YOUSAF","P158":"YOUSAF","P166":"YOUSAF","P168":"YOUSAF","P202":"YOUSAF","P203":"YOUSAF","P256":"YOUSAF","P398":"YOUSAF","P400":"YOUSAF","P018":"MADANI","P036":"MADANI","P104":"MADANI","P150":"MADANI","P153":"MADANI","P164":"MADANI","P205":"MADANI","P225":"MADANI","P248":"MADANI","P399":"MADANI","P400":"MADANI","P028":"MOAZ","P129":"MOAZ","P167":"MOAZ","P170":"MOAZ","P206":"MOAZ","P207":"MOAZ","P208":"MOAZ","P221":"MOAZ","P247":"MOAZ","P252":"MOAZ","P335":"MOAZ","P001":"SADIQ","P004":"SADIQ","P020":"SADIQ","P038":"SADIQ","P048":"SADIQ","P204":"SADIQ","P227":"SADIQ","P382":"SADIQ","P395":"SADIQ","P396":"SADIQ","P403":"SADIQ"}};
 
 let MM=window.Shared?Shared.merged():{};
 let S=load(),tab='dash',adm=sessionStorage.getItem('p4adm')==='1',pend=null,pendSch=null,F={},SF={};
@@ -189,11 +189,16 @@ function injectRiyadhMaster(){
 }
 
 function builtin(){
-  const h={id:'S0',name:SCHED0.name,date:'2026-11-01T00:00:00',sched:{},drivers:{}};
+  const h={id:'S0',name:SCHED0.name,date:'2026-11-01T00:00:00',sched:{},drivers:{JSON:true}};
   Object.entries(SCHED0.p).forEach(([k,v])=>{
-    const[d,a]=v.split(':');
-    h.sched[k]={days:[...d].map(i=>DAYS[+i]),area:RIYADH_SET.has(k)?'RIYADH':SCHED0.areas[+a]};
+    const parts=v.split(':');
+    if(parts.length===2){
+      const[d,aIdx]=parts;
+      const areaName=SCHED0.areas[+aIdx]||'JEDDAH';
+      h.sched[k]={days:[...d].map(i=>DAYS[+i]),area:RIYADH_SET.has(k)?'RIYADH':areaName};
+    }
   });
+  h.drivers=JSON.parse(JSON.stringify(SCHED0.drivers));
   RIYADH_PLANTS.forEach(p=>{
     if(!h.sched[p]) h.sched[p]={days:[],area:'RIYADH'};
     else h.sched[p].area='RIYADH';
@@ -288,12 +293,10 @@ const cl=v=>String(v==null?'':v).trim(),nk=k=>cl(k).toLowerCase().replace(/[^a-z
 const nArea=v=>{v=cl(v).toUpperCase().replace(/\s+/g,' ');return AMAP[v]||v};
 const phCmp=(a,b)=>(parseInt(String(a).replace(/\D/g,''))||1e9)-(parseInt(String(b).replace(/\D/g,''))||1e9)||String(a).localeCompare(b);
 
-/* ---------- file reading ---------- */
 function readSheets(f){return new Promise((ok,no)=>{const r=new FileReader();r.onerror=()=>no(new Error('Cannot read the file'));r.onload=e=>{try{
   if(typeof XLSX==='undefined')throw new Error('xlsx.full.min.js is not loaded');
   const wb=XLSX.read(e.target.result,{type:'array'}),o={};wb.SheetNames.forEach(n=>o[n]=XLSX.utils.sheet_to_json(wb.Sheets[n],{header:1,defval:'',raw:false}));ok(o)}catch(x){no(x)}};r.readAsArrayBuffer(f)})}
 
-/* ---------- importers ---------- */
 function parseOrders(a){const hi=a.findIndex(r=>r.map(nk).includes('delivery'));if(hi<0)throw new Error('Column "Delivery" not found');
   const h=a[hi].map(nk),f=(...n)=>h.findIndex(x=>n.includes(x)),w=f('warehousenumber','whnumber','wh','warehouse'),d=f('delivery','deliverynumber'),p=f('shiptoparty','phnumber','ph','shipto');
   if(w<0||p<0)throw new Error('Need columns: Warehouse Number, Delivery, Ship-to Party');
@@ -309,7 +312,6 @@ function parseAll(a){const sc={},dr=a.map((r,i)=>r.some(c=>DAYS.includes(cl(c).t
 function parseJed(a){const hi=a.findIndex(r=>r.filter(c=>cl(c)&&!CODE.test(cl(c).toUpperCase())).length>=2);if(hi<0)return{};const dr={};
   a.slice(hi+1).forEach(r=>r.forEach((c,ci)=>{const v=cl(c).toUpperCase();if(CODE.test(v)&&cl(a[hi][ci]))dr[v]=cl(a[hi][ci]).toUpperCase()}));return dr}
 
-/* ---------- derived data ---------- */
 function nextDate(days){const t=new Date();t.setHours(0,0,0,0);let best=null;(days||[]).forEach(d=>{const i=DAYS.indexOf(d);if(i<0)return;const x=new Date(t);x.setDate(t.getDate()+(i-t.getDay()+7)%7);if(!best||x<best)best=x});return best}
 function view(o){
   const s=S.sched[o.ph]||{},p=S.phs[o.ph]||{},days=p.day?[p.day]:s.days,n=nextDate(days);
@@ -318,7 +320,6 @@ function view(o){
 }
 const rem=()=>S.orders.filter(o=>o.status==='R').map(view),shp=()=>S.orders.filter(o=>o.status==='S').map(view);
 
-/* ---------- helpers ---------- */
 function xl(name,head,rows){if(typeof XLSX==='undefined')return alert('xlsx.full.min.js is not loaded');
   const ws=XLSX.utils.aoa_to_sheet([head,...rows]);head.forEach((_,c)=>{const a=XLSX.utils.encode_cell({r:0,c});if(ws[a])ws[a].s={font:{bold:true,color:{rgb:'FFFFFF'}},fill:{patternType:'solid',fgColor:{rgb:'1F3864'}},alignment:{horizontal:'center'}}});
   ws['!cols']=head.map(()=>({wch:20}));const wb=XLSX.utils.book_new();wb.Props={Author:'Maruf Hasan'};XLSX.utils.book_append_sheet(wb,ws,name.slice(0,30));XLSX.writeFile(wb,name+'_'+ymd(new Date())+'.xlsx')}
@@ -328,7 +329,6 @@ const tbl=(h,r)=>'<div class="w"><table><tr>'+h.map(x=>'<th'+(x==='&#9745;'?' cl
 const bars=o=>{const m=Math.max(1,...Object.values(o));return Object.entries(o).sort((a,b)=>b[1]-a[1]).map(([k,v])=>'<div class="bar"><span>'+esc(k||'(none)')+'</span><i style="width:'+Math.round(v/m*60)+'%"></i><b>'+v+'</b></div>').join('')||'<div class="m">No data</div>'};
 const cnt=(a,f)=>a.reduce((o,x)=>{const k=f(x);o[k]=(o[k]||0)+1;return o},{});
 
-/* ---------- tabs ---------- */
 const TABS=[
   ['dash','&#128202; Dashboard'],
   ['dates','&#128197; Shipment Dates'],
@@ -356,152 +356,5 @@ function dash(d){const r=rem(),s=shp(),t=ymd(new Date());
   '<div class="card"><h3>Next shipment dates</h3>'+bars(cnt(r,o=>o.nextL||'Unmapped'))+'</div><div class="card"><h3>Warehouse wise</h3>'+bars(cnt(r,o=>o.wh))+'</div><div class="card"><h3>Area wise</h3>'+bars(cnt(r,o=>o.area||'Unmapped'))+'</div>'+
   '<div class="card"><h3>Recent uploads &amp; completions</h3>'+(S.audit.filter(a=>/upload|manual|complete|restore/i.test(a.a)).slice(0,10).map(a=>'<div class="m">'+esc(a.t.slice(0,16).replace('T',' '))+' &middot; '+esc(a.u)+' &middot; <b>'+esc(a.a)+'</b> '+esc(a.d)+'</div>').join('')||'<div class="m">Nothing yet</div>')+'</div>'}
 
-/* ---------- add orders ---------- */
 function add(d){d.innerHTML='<div class="card"><h3>1. Upload SAP Excel (VL06C / order export)</h3><div class="row"><input type="file" id="of" accept=".xlsx,.xls,.csv"></div></div><div class="card"><h3>2. Or paste orders</h3><div class="m">One per line: WH, Delivery, PH &nbsp; e.g. W2, 111844147, P282</div><textarea id="tx" placeholder="W2, 111844147, P282"></textarea><div class="row"><button class="b" onclick="prev(parseText($(\'tx\').value),\'manual\')">Preview</button></div></div><div id="pv"></div>';
-  $('of').onchange=async e=>{const f=e.target.files[0];if(!f)return;try{const sh=await readSheets(f),n=Object.keys(sh).find(x=>/^data$/i.test(x))||Object.keys(sh)[0];prev(parseOrders(sh[n]),'upload:'+f.name)}catch(x){$('pv').innerHTML='<div class="card er">'+esc(x.message)+'</div>'}e.target.value=''}}
-function prev(list,src){const have=new Set(S.orders.map(o=>o.del)),seen=new Set(),ok=[],dup=[],bad=[];
-  list.forEach(o=>{const e=checkRow(o);if(e)bad.push({...o,e});else if(have.has(o.del)||seen.has(o.del))dup.push(o);else{seen.add(o.del);ok.push(o)}});pend={ok,src};
-  $('pv').innerHTML='<div class="card"><h3>Preview</h3><div class="cards"><div class="kpi"><b>'+list.length+'</b><span>Total rows</span></div><div class="kpi"><b class="ok">'+ok.length+'</b><span>New (will be added)</span></div><div class="kpi"><b>'+dup.length+'</b><span>Duplicates (ignored)</span></div><div class="kpi"><b class="er">'+bad.length+'</b><span>Invalid</span></div></div>'+
-  (bad.length?'<div class="m er">Invalid rows (first 15): '+bad.slice(0,15).map(b=>'line '+b.line+' ['+esc(b.wh+' '+b.del+' '+b.ph)+'] '+b.e).join(' &middot; ')+'</div>':'')+
-  (ok.length?tbl(['WH','Delivery','PH','Area'],ok.slice(0,50).map(o=>'<tr><td>'+esc(o.wh)+'</td><td>'+esc(o.del)+'</td><td>'+esc(o.ph)+'</td><td>'+(RIYADH_SET.has(o.ph)?'<span class="tag riyadh">RIYADH</span>':esc((S.sched[o.ph]||{}).area||'-'))+'</td></tr>'))+'<div class="row"><button class="b" onclick="commit()">Save '+ok.length+' orders</button></div>':'<div class="m">Nothing new to save.</div>')+'</div>'}
-function commit(){if(!pend)return;const have=new Set(S.orders.map(o=>o.del));let n=0;pend.ok.forEach(o=>{if(have.has(o.del))return;have.add(o.del);S.orders.push({id:'O'+Date.now()+'_'+n++,wh:o.wh,del:o.del,ph:o.ph,added:new Date().toISOString(),by:S.user||'-',status:'R',reason:''})});
-  log(pend.src.startsWith('upload')?'Upload':'Manual entry',n+' orders ('+pend.src+')');save();pend=null;$('pv').innerHTML='<div class="card ok"><b>&#10004; '+n+' orders saved.</b> Duplicates were ignored; the first record is always kept.</div>'}
-
-/* ---------- Shared Selection & Toggle Logic ---------- */
-let SEL=new Set(),drag=null;
-function selRow(tr,on){const id=tr.dataset.id;if(on){SEL.add(id);tr.classList.add('sel')}else{SEL.delete(id);tr.classList.remove('sel')}}
-
-function toggleAllVisible(){
-  const rows=[...document.querySelectorAll('#tb tr[data-id]')];
-  if(!rows.length)return;
-  const allChecked=rows.every(tr=>SEL.has(tr.dataset.id));
-  rows.forEach(tr=>selRow(tr,!allChecked));
-  updAB();
-}
-
-function updAB(){
-  const b=$('ab');if(!b)return;
-  const rows=[...document.querySelectorAll('#tb tr[data-id]')];
-  const total=rows.length, n=SEL.size;
-  const allChecked=total>0 && n===total;
-  const partial=n>0 && n<total;
-  const isShipTab=(tab==='ship');
-
-  const opt1='<button type="button" class="tgl-box'+(allChecked?' checked':partial?' partial':'')+'" onclick="toggleAllVisible()">'+
-    '<span class="bx"></span><span>'+(allChecked?'Unselect All ('+n+')':'Select All ('+total+')')+'</span></button>';
-
-  const opt2='<button type="button" class="o" onclick="copySel()"'+(n?'':' style="opacity:.65"')+'>&#128203; Copy'+(n?' ('+n+')':'')+'</button>';
-
-  const opt3=isShipTab
-    ? (n?'<button type="button" class="o r" onclick="restoreSel()">&#8634; Restore to Remaining ('+n+')</button>':'')
-    : '<button type="button" class="b okbtn" onclick="completeSel()"'+(n?'':' style="opacity:.65"')+'>&#10004; Shipment Complete'+(n?' ('+n+')':'')+'</button>';
-
-  b.innerHTML=opt1+opt2+opt3+(n?'<span class="tag" style="margin-left:auto">'+n+' of '+total+' selected</span>':'<span class="m" style="margin:0 0 0 auto">Click checkbox to Select All / Unselect All</span>');
-}
-
-function tickG(b){const ids=new Set(b.dataset.ids.split(','));const rows=[...document.querySelectorAll('#tb tr[data-id]')].filter(tr=>ids.has(tr.dataset.id));const all=rows.every(tr=>SEL.has(tr.dataset.id));rows.forEach(tr=>selRow(tr,!all));updAB()}
-function selDels(){return[...document.querySelectorAll('#tb tr.sel td.dl')].map(x=>x.textContent.trim())}
-function copySel(){const l=selDels();if(!l.length)return alert('Please select at least 1 row first.');copy(l.join('\n'));const b=$('ab');if(b){const old=b.querySelector('.cp-msg');if(old)old.remove();b.insertAdjacentHTML('beforeend','<b class="ok cp-msg">&#10004; Copied '+l.length+' deliveries!</b>')}}
-function completeSel(){const ids=[...SEL];if(!ids.length)return alert('Please select rows first.');if(!confirm('Mark '+ids.length+' deliveries as Shipment Complete?'))return;const t=new Date().toISOString(),dl=[];
-  ids.forEach(id=>{const o=S.orders.find(x=>x.id===id);if(o&&o.status==='R'){o.status='S';o.doneAt=t;o.doneBy=S.user||'-';dl.push(o.del)}});log('Shipment complete',dl.length+' deliveries: '+dl.slice(0,6).join(', ')+(dl.length>6?' ...':''));save();SEL=new Set();render()}
-function restoreSel(){const ids=[...SEL];if(!ids.length)return;if(!confirm('Move '+ids.length+' deliveries back to Remaining?'))return;
-  ids.forEach(id=>{const o=S.orders.find(x=>x.id===id);if(o&&o.status==='S'){o.status='R';o.doneAt='';o.doneBy=''}});log('Restore',ids.length+' deliveries moved back to Remaining');save();SEL=new Set();render()}
-
-document.addEventListener('mousedown',e=>{const c=e.target.closest('#tb td.ck');if(!c)return;e.preventDefault();const tr=c.parentNode;drag=!SEL.has(tr.dataset.id);selRow(tr,drag);updAB()});
-document.addEventListener('mouseover',e=>{if(drag===null)return;const c=e.target.closest('#tb td.ck');if(c){selRow(c.parentNode,drag);updAB()}});
-document.addEventListener('mouseup',()=>{drag=null});
-document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='c'&&SEL.size&&!String(window.getSelection()).trim()&&!/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)){e.preventDefault();copySel()}});
-
-/* ---------- Remaining + Shipment Dates ---------- */
-const FL={wh:'WH',area:'Area',driver:'Driver',reason:'Reason',next:'Date',doneDay:'Completed Date',doneBy:'Completed By'};
-const fv=(o,k)=>k==='next'?(o.nextL||'Unmapped'):k==='doneDay'?((o.doneAt||'').slice(0,10)||'(none)'):(o[k]||'(none)');
-let LM=0;
-function ms(k,opts,store,fn){const sel=store[k]||[];return'<details class="ms" data-k="'+k+'"><summary>'+FL[k]+(sel.length?' ('+sel.length+')':'')+' &#9662;</summary><div class="mo">'+opts.map(v=>'<label><input type="checkbox" value="'+esc(v)+'"'+(sel.includes(v)?' checked':'')+' onchange="'+fn+'(\''+k+'\',this.value,this.checked)"> '+esc(v)+'</label>').join('')+'</div></details>'}
-function togF(k,v,on){const a=(F[k]||[]).filter(x=>x!==v);if(on)a.push(v);F[k]=a;const sm=document.querySelector('details[data-k="'+k+'"] summary');if(sm)sm.innerHTML=FL[k]+(a.length?' ('+a.length+')':'')+' &#9662;';drawL()}
-document.addEventListener('click',e=>document.querySelectorAll('details.ms[open]').forEach(x=>{if(!x.contains(e.target))x.open=false}));
-function clrF(){const ds=F.ds,g=F.g;F={ds,g};render()}
-
-function listV(d,mode){LM=mode;const all=rem(),today=ymd(new Date()),opt=k=>[...new Set(all.map(o=>fv(o,k)))].sort();let top='';
-  if(mode){const dc=cnt(all,o=>o.nextL||'Unmapped'),ds=Object.keys(dc).sort((a,b)=>a==='Unmapped'?1:b==='Unmapped'?-1:a.localeCompare(b));if(!ds.includes(F.ds))F.ds=ds[0];
-    top='<div class="m">Choose a shipment date:</div>'+(ds.map(k=>'<button class="ch'+(F.ds===k?' on':'')+'" onclick="F.ds=\''+k+'\';render()">'+(k.startsWith(today)?'Today &middot; ':'')+k.replace(/^\d{4}-/,'')+' ('+dc[k]+')</button>').join('')||'<div class="m">No remaining orders.</div>')+'<div class="m" style="margin-top:10px">Group inside the date by:</div>'+[['area','Area'],['driver','Driver'],['reason','Reason'],['','None']].map(([k,l])=>'<button class="ch'+((F.g===undefined?'area':F.g)===k?' on':'')+'" onclick="F.g=\''+k+'\';render()">'+l+'</button>').join('')}
-  d.innerHTML='<div class="card"><h3>'+(mode?'Shipment Dates':'Remaining Orders')+'</h3>'+top+'<div class="row"><input id="q" placeholder="Search Delivery / PH" value="'+esc(F.q||'')+'" oninput="F.q=this.value;drawL()">'+ms('wh',opt('wh'),F,'togF')+ms('area',opt('area'),F,'togF')+ms('driver',opt('driver'),F,'togF')+ms('reason',opt('reason'),F,'togF')+(mode?'':ms('next',opt('next'),F,'togF'))+'<button class="o" onclick="clrF()">Clear filters</button></div><div id="tb"></div></div>';drawL()}
-
-function areaBadge(a){if(!a)return'<span class="tag u">Unmapped</span>';if(a==='RIYADH')return'<span class="tag riyadh">RIYADH</span>';return esc(a)}
-function rowH(o){return'<tr data-id="'+o.id+'"'+(SEL.has(o.id)?' class="sel"':'')+'><td class="ck"><span class="bx"></span></td><td>'+esc(o.wh)+'</td><td class="dl">'+esc(o.del)+'</td><td>'+esc(o.ph)+(o.inactive?' <span class="tag x">inactive</span>':'')+'</td><td>'+areaBadge(o.area)+'</td><td>'+esc(o.driver)+'</td>'+(LM?'':'<td>'+(esc(o.nextL)||'<span class="tag u">Unmapped</span>')+'</td>')+'<td><select onchange="setReason(\''+o.id+'\',this.value)"><option value="">-</option>'+S.reasons.map(x=>'<option'+(o.reason===x?' selected':'')+'>'+esc(x)+'</option>').join('')+'</select></td></tr>'}
-
-function drawL(){const q=(F.q||'').toUpperCase(),ks=LM?['wh','area','driver','reason']:['wh','area','driver','reason','next'];
-  const r=rem().filter(o=>(!LM||(o.nextL||'Unmapped')===F.ds)&&(!q||o.del.includes(q)||o.ph.includes(q))&&ks.every(k=>!(F[k]&&F[k].length)||F[k].includes(fv(o,k)))).sort((a,b)=>phCmp(a.ph,b.ph)||a.del.localeCompare(b.del));
-  const vis=new Set(r.map(o=>o.id));SEL=new Set([...SEL].filter(x=>vis.has(x)));const H=['&#9745;','WH','Delivery','PH','Area','Driver'].concat(LM?[]:['Ship date']).concat(['Reason']),g=LM?(F.g===undefined?'area':F.g):'';let h='<div class="ab" id="ab"></div>';
-  if(!g)h+='<div class="row"><b>'+r.length+' orders</b></div>'+tbl(H,r.slice(0,1000).map(rowH));
-  else{const G={};r.forEach(o=>(G[fv(o,g)]=G[fv(o,g)]||[]).push(o));h+='<div class="m"><b>'+r.length+' orders</b></div>'+(Object.keys(G).sort().map(k=>'<h3 style="margin:16px 0 8px">'+esc(k)+' <span class="tag">'+G[k].length+'</span> <button class="s" data-copy="'+esc(G[k].map(o=>o.del).join('\n'))+'">Copy '+G[k].length+'</button> <button class="s" data-ids="'+G[k].map(o=>o.id).join(',')+'" onclick="tickG(this)">Select / Unselect '+G[k].length+'</button></h3>'+tbl(H,G[k].map(rowH))).join('')||'<div class="m">No orders for this selection.</div>')}
-  $('tb').innerHTML=h;updAB()}
-function setReason(id,v){const o=S.orders.find(x=>x.id===id);o.reason=v;log('Reason',o.del+' = '+v);save()}
-
-/* ---------- Shipped History ---------- */
-function togSF(k,v,on){const a=(SF[k]||[]).filter(x=>x!==v);if(on)a.push(v);SF[k]=a;const sm=document.querySelector('details[data-k="'+k+'"] summary');if(sm)sm.innerHTML=FL[k]+(a.length?' ('+a.length+')':'')+' &#9662;';drawShip()}
-function clrSF(){SF={};render()}
-function ship(d){
-  const all=shp(),opt=k=>[...new Set(all.map(o=>fv(o,k)))].sort();
-  d.innerHTML='<div class="card"><h3>Shipped History ('+all.length+')</h3>'+
-  '<div class="row"><input id="sq" placeholder="Search Delivery / PH" value="'+esc(SF.q||'')+'" oninput="SF.q=this.value;drawShip()">'+
-  ms('wh',opt('wh'),SF,'togSF')+ms('area',opt('area'),SF,'togSF')+ms('driver',opt('driver'),SF,'togSF')+ms('doneDay',opt('doneDay'),SF,'togSF')+ms('doneBy',opt('doneBy'),SF,'togSF')+
-  '<button class="o" onclick="clrSF()">Clear filters</button></div>'+
-  '<div id="tb"></div></div>';
-  drawShip();
-}
-function drawShip(){
-  const q=(SF.q||'').toUpperCase(),ks=['wh','area','driver','doneDay','doneBy'];
-  const s=shp().filter(o=>(!q||o.del.includes(q)||o.ph.includes(q))&&ks.every(k=>!(SF[k]&&SF[k].length)||SF[k].includes(fv(o,k)))).sort((a,b)=>(b.doneAt||'').localeCompare(a.doneAt||''));
-  const vis=new Set(s.map(o=>o.id));SEL=new Set([...SEL].filter(x=>vis.has(x)));
-  const H=['&#9745;','WH','Delivery','PH','Area','Driver','Completed','By'];
-  const rows=s.slice(0,1000).map(o=>'<tr data-id="'+o.id+'"'+(SEL.has(o.id)?' class="sel"':'')+'><td class="ck"><span class="bx"></span></td><td>'+esc(o.wh)+'</td><td class="dl">'+esc(o.del)+'</td><td>'+esc(o.ph)+'</td><td>'+areaBadge(o.area)+'</td><td>'+esc(o.driver)+'</td><td>'+esc((o.doneAt||'').slice(0,16).replace('T',' '))+'</td><td>'+esc(o.doneBy)+'</td></tr>');
-  $('tb').innerHTML='<div class="ab" id="ab"></div><div class="row"><b>'+s.length+' shipped orders</b></div>'+tbl(H,rows);
-  updAB();
-}
-
-/* ---------- reports ---------- */
-function rep(d){const H=['WH','Delivery','PH','Area','Ship date','Driver','Status','Reason'],R=l=>l.map(o=>[o.wh,o.del,o.ph,o.area,o.next,o.driver,o.status==='S'?'Shipped':'Remaining',o.reason]),all=()=>S.orders.map(view),sr=(l,f)=>R(l.slice().sort(f));
-  const B=(l,fn)=>'<button class="b" onclick="'+fn+'">'+l+'</button> ';window.RP={all:()=>xl('All_Orders',H,R(all())),rem:()=>xl('Remaining',H,R(rem())),shp:()=>xl('Shipped_History',H,R(shp())),date:()=>xl('Date_Wise',H,sr(all(),(a,b)=>a.next.localeCompare(b.next)||phCmp(a.ph,b.ph))),area:()=>xl('Area_Wise',H,sr(all(),(a,b)=>a.area.localeCompare(b.area)||phCmp(a.ph,b.ph))),drv:()=>xl('Driver_Wise',H,sr(all().filter(o=>o.driver),(a,b)=>a.driver.localeCompare(b.driver)||phCmp(a.ph,b.ph))),ph:()=>xl('PH_Wise',H,sr(all(),(a,b)=>phCmp(a.ph,b.ph))),un:()=>xl('Unmapped',H,R(rem().filter(o=>!o.next)))};
-  d.innerHTML='<div class="card"><h3>Export Excel reports</h3><div class="row">'+B('All Orders','RP.all()')+B('Remaining','RP.rem()')+B('Shipped History','RP.shp()')+B('Date Wise','RP.date()')+B('Area Wise','RP.area()')+B('Driver Wise','RP.drv()')+B('PH Wise','RP.ph()')+B('Unmapped','RP.un()')+'<button class="o" onclick="window.print()">Print</button></div></div>'}
-
-/* ---------- admin ---------- */
-function adminV(d){if(!adm){d.innerHTML='<div class="card"><h3>Admin Unlock</h3><div class="row"><input type="password" id="pw" placeholder="Password" onkeydown="if(event.key===\'Enter\')login()"><button class="b" onclick="login()">Unlock</button></div></div>';return}
-  d.innerHTML=
-  '<div class="card" style="border-left:5px solid #16a34a"><h3>&#9729; Google Sheets Cloud Sync (Permanent Data Protection)</h3>'+
-  '<div class="m">Paste your Google Apps Script Web App URL below. Once connected, every order, reason, schedule, and Riyadh plant setting is automatically saved to Google Sheets so data is never lost.</div>'+
-  '<div class="row"><input id="gsUrl" style="flex:1;min-width:280px" placeholder="https://script.google.com/macros/s/.../exec" value="'+esc(S.gsUrl||'')+'"><button class="b okbtn" onclick="saveGsUrl()">Save &amp; Connect</button><button class="o" onclick="cloudPush(true)">Push to Sheet</button><button class="o" onclick="cloudPull(true)">Pull from Sheet</button></div></div>'+
-
-  '<div class="card"><h3>&#127758; Regional Masters (Jeddah, Makkah, Riyadh &amp; 205 Plants)</h3>'+
-  '<div class="m">All original regional schedules (Jeddah, Makkah, Madinah, Taif, etc.) plus 205 Riyadh plants are fully integrated and active.</div></div>'+
-
-  '<div class="card"><h3>Schedule Management</h3><div class="m">Upload new schedule Excel (must contain sheets <b>ALL</b> and <b>JEDDAH</b>):</div><div class="row"><input type="file" id="sf" accept=".xlsx,.xls"></div><div id="sp"></div>'+
-  '<h4>Schedule history</h4>'+tbl(['Name','Uploaded','PHs','Status',''],S.hist.map(h=>'<tr><td>'+esc(h.name)+'</td><td>'+esc(h.date.slice(0,16).replace('T',' '))+'</td><td>'+Object.keys(h.sched).length+'</td><td>'+(h.id===S.active?'<span class="tag">Active</span>':'')+'</td><td>'+(h.id!==S.active?'<button class="s" onclick="actSch(\''+h.id+'\')">Activate</button>':'')+'</td></tr>'))+'</div>'+
-
-  '<div class="card"><h3>PH / Plant Master</h3><div class="row"><input id="np" placeholder="PH e.g. P658"><select id="nd"><option value="">(schedule default)</option>'+DAYS.map(x=>'<option>'+x+'</option>').join('')+'</select><input id="na" placeholder="Area e.g. RIYADH" value="RIYADH"><input id="nr" placeholder="Driver"><button class="b" onclick="addPh()">Save PH</button></div>'+
-  tbl(['PH','Override day','Area','Driver','Status',''],Object.keys({...S.sched,...S.phs}).sort(phCmp).slice(0,250).map(p=>{const x=S.phs[p]||{};const ar=RIYADH_SET.has(p)?'RIYADH':(x.area||(S.sched[p]||{}).area||'');return'<tr><td>'+esc(p)+'</td><td>'+esc(x.day||'-')+'</td><td>'+areaBadge(ar)+'</td><td>'+esc(S.drivers[p]||'-')+'</td><td>'+(x.active===false?'<span class="tag x">Inactive</span>':'Active')+'</td><td><button class="s" onclick="togPh(\''+p+'\')">Toggle</button></td></tr>'}))+'</div>'+
-
-  '<div class="card"><h3>Reasons &amp; JSON Backup</h3><div class="row"><input id="rn" placeholder="New reason"><button class="b" onclick="addR()">Add</button></div><div class="row">'+S.reasons.map((r,i)=>'<span class="tag">'+esc(r)+' <a href="#" onclick="S.reasons.splice('+i+',1);save();render();return false">&times;</a></span>').join(' ')+'</div>'+
-  '<div class="row" style="margin-top:12px"><button class="b" onclick="bk()">Download JSON Backup</button><label class="o" style="cursor:pointer">Restore JSON <input type="file" accept=".json" style="display:none" onchange="rs(this.files[0])"></label><button class="s r" onclick="if(confirm(\'Delete all orders on this browser?\')){S.orders=[];log(\'Reset\',\'All orders cleared\');save();render()}">Clear all orders</button></div></div>'+
-
-  '<div class="card"><h3>Audit log</h3>'+tbl(['Time','User','Action','Detail'],S.audit.slice(0,80).map(a=>'<tr><td>'+esc(a.t.slice(0,16).replace('T',' '))+'</td><td>'+esc(a.u)+'</td><td>'+esc(a.a)+'</td><td>'+esc(a.d)+'</td></tr>'))+'</div>';
-
-  $('sf').onchange=async e=>{const f=e.target.files[0];if(!f)return;try{const sh=await readSheets(f);if(!sh.ALL||!sh.JEDDAH)throw new Error('Both sheets "ALL" and "JEDDAH" are required');
-    const sc=parseAll(sh.ALL),dr=parseJed(sh.JEDDAH);if(!Object.keys(sc).length)throw new Error('No PH codes found in ALL');pendSch={name:f.name,sched:sc,drivers:dr};
-    $('sp').innerHTML='<div class="m ok">Ready: <b>'+Object.keys(sc).length+'</b> PHs in ALL, <b>'+Object.keys(dr).length+'</b> drivers in JEDDAH. <button class="b" onclick="saveSch()">Activate schedule</button></div>'}catch(x){$('sp').innerHTML='<div class="m er">'+esc(x.message)+'</div>'}e.target.value=''}}
-
-function saveGsUrl(){S.gsUrl=$('gsUrl').value.trim();save(true);if(S.gsUrl)cloudPull(true);else render();}
-function login(){if($('pw').value==='admin123'){adm=true;sessionStorage.setItem('p4adm','1');render()}else alert('Wrong password')}
-function saveSch(){const h={id:'S'+Date.now(),name:pendSch.name,date:new Date().toISOString(),sched:pendSch.sched,drivers:pendSch.drivers};S.hist.unshift(h);applySch(h);log('Schedule',h.name);save();pendSch=null;render()}
-function actSch(id){const h=S.hist.find(x=>x.id===id);if(!h)return;applySch(h);log('Activate schedule',h.name);save();render()}
-function addPh(){const p=$('np').value.trim().toUpperCase();if(!CODE.test(p))return alert('Invalid PH code');S.phs[p]={day:$('nd').value,area:$('na').value.trim().toUpperCase(),active:true};if($('nr').value.trim())S.drivers[p]=$('nr').value.trim().toUpperCase();log('PH edit',p);save();render()}
-function togPh(p){S.phs[p]=S.phs[p]||{};S.phs[p].active=S.phs[p].active===false;save();render()}
-function addR(){const v=$('rn').value.trim();if(v&&!S.reasons.includes(v)){S.reasons.push(v);save();render()}}
-function bk(){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(S,null,2)],{type:'application/json'}));a.download='project4_backup_'+ymd(new Date())+'.json';a.click()}
-function rs(f){if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(!d.orders)throw 0;S=d;injectRiyadhMaster();log('Restore','JSON backup');save();render()}catch(e){alert('Invalid backup file')}};r.readAsText(f)}
-
-ensureSched();
-render();
-if(S.gsUrl) cloudPull(false);
-</script>
-</body>
-</html>
+  $('of').onchange=async e=>{const f=e.target.files[0];if(!f)return
